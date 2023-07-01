@@ -1,56 +1,74 @@
 [
     {
-        "name": "HTML5"
+        "name": "HTML5",
+        "img": "html5"
     },
     {
-        "name": "CSS"
+        "name": "CSS",
+        "img": "css"
     },
     {
-        "name": "Sass"
+        "name": "Sass",
+        "img": "sass"
     },
     {
-        "name": "JavaScript"
+        "name": "JavaScript",
+        "img": "javascript"
     },
     {
-        "name": "TypeScript"
+        "name": "TypeScript",
+        "img": "typescript"
     },
     {
-        "name": "PHP"
+        "name": "PHP",
+        "img": "php"
     },
     {
-        "name": "WordPress"
+        "name": "WordPress",
+        "img": "wordpress"
     },
     {
-        "name": "Angular"
+        "name": "Angular",
+        "img": "angular"
     },
     {
-        "name": "React"
+        "name": "React",
+        "img": "react"
     },
     {
-        "name": "Bootstrap"
+        "name": "Bootstrap",
+        "img": "bootstrap"
     },
     {
-        "name": "Tailwind"
+        "name": "Tailwind",
+        "img": "tailwind"
     },
     {
-        "name": "Grunt"
+        "name": "Grunt",
+        "img": "grunt"
     },
     {
-        "name": "Gulp"
+        "name": "Gulp",
+        "img": "gulp"
     },
     {
-        "name": "GitHub"
+        "name": "GitHub",
+        "img": "github"
     },
     {
-        "name": "Astro"
+        "name": "Astro",
+        "img": "astro"
     },
     {
-        "name": "MySQL"
+        "name": "MySQL",
+        "img": "mysql"
     },
     {
-        "name": "Sketch"
+        "name": "Sketch",
+        "img": "sketch"
     },
     {
-        "name": "Figma"
+        "name": "Figma",
+        "img": "figma"
     }
 ]

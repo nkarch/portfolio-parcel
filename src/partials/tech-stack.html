@@ -2,9 +2,9 @@
     <p>Noteable tools I work with / have worked with:</p>
 
     <ul>
-        <each loop="logo in techStack">
+        <each loop="logo, i in techStack">
             <li>
-                <img src="./assets/img/logos/{{ logo.name }}.svg" alt> {{logo.name}},
+                <img src="./assets/img/logos/{{ logo.img }}.svg" alt> {{logo.name}}<if condition="i < techStack.length - 1">,</if>
             </li>
         </each>
     </ul>
