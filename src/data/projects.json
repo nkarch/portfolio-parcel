@@ -1,0 +1,96 @@
+{
+    "intersect": [
+        {
+            "title": "WeAreIntersect.com",
+            "href": "#weareintersect",
+            "image": "weareintersect",
+            "alt": "Screenshot of weareintersect.com",
+            "description": "Marketing website and blog for Intersect (former subsidiary of CoreLogic) built with WordPress",
+            "link": "https://web.archive.org/web/20210414201709/https://www.weareintersect.com/",
+            "liveSite": false
+        },
+        {
+            "title": "OneHome",
+            "href": "#onehome",
+            "image": "onehome",
+            "alt": "Screenshot of OneHome website",
+            "description": "Product website for real estate software, built with Angular",
+            "link": "https://www.onehome.com/",
+            "liveSite": true
+        },
+        {
+            "title": "HomeVisit",
+            "href": "#homevisit",
+            "image": "homevisit",
+            "alt": "Screenshot of HomeVisit website",
+            "description": "Product website for real estate software, built with Angular",
+            "link": "https://www.homevisit.com/",
+            "liveSite": true
+        },
+        {
+            "title": "AndroidTO",
+            "href": "#androidto",
+            "image": "androidto",
+            "alt": "Screenshot of AndroidTO website",
+            "description": "Event landing page for annual Android developer conference",
+            "link": "https://web.archive.org/web/20181128121610/http://androidto.com/",
+            "liveSite": false
+        },
+        {
+            "title": "Corelogic Symbility",
+            "href": "#symbility",
+            "image": "symbility",
+            "alt": "Screenshot of Symbility website",
+            "description": "Marketing website and blog for property insurance software, built with WordPress",
+            "link": "https://www.symbilitysolutions.com/symbility-property/",
+            "liveSite": true
+        },
+        {
+            "title": "Pharmacielo",
+            "href": "#pharmacielo",
+            "image": "pharmacielo",
+            "alt": "Screenshot of Pharmacielo website",
+            "description": "Marketing website for pharmaceutical cannabis oil extract company, built with WordPress",
+            "link": "https://web.archive.org/web/20181217205044/https://www.pharmacielo.com/",
+            "liveSite": false
+        }
+    ],
+    "freelance": [
+        {
+            "title": "Tuned",
+            "href": "#tuned",
+            "image": "tuned",
+            "alt": "Screenshot of Tuned website",
+            "description": "Product website for cryptocurrency trading platform, built with WordPress",
+            "link": "https://web.archive.org/web/20221031171832/https://www.tuned.com/",
+            "liveSite": false
+        },
+        {
+            "title": "Burlington Pediatric Dentistry",
+            "href": "#mybpd",
+            "image": "bpd",
+            "alt": "Screenshot of MyBPD website",
+            "description": "Company website for dental clinic, built with Wordpress",
+            "link": "http://mybpd.ca/",
+            "liveSite": true
+        },
+        {
+            "title": "SDS",
+            "href": "#sds",
+            "image": "sds-safety",
+            "alt": "Screenshot of SDS website",
+            "description": "Company website for construction safety training company, built with WordPress",
+            "link": "https://sds-safety.com/",
+            "liveSite": true
+        },
+        {
+            "title": "Oscillot Audio",
+            "href": "#oscillot",
+            "image": "oscillot",
+            "alt": "Screenshot of Oscillot Audio website",
+            "description": "Product website for audio editing software, built with WordPress",
+            "link": "https://oscillotaudio.com/",
+            "liveSite": true
+        }
+    ]
+}

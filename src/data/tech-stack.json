@@ -1,0 +1,56 @@
+[
+    {
+        "name": "HTML5"
+    },
+    {
+        "name": "CSS"
+    },
+    {
+        "name": "Sass"
+    },
+    {
+        "name": "JavaScript"
+    },
+    {
+        "name": "TypeScript"
+    },
+    {
+        "name": "PHP"
+    },
+    {
+        "name": "WordPress"
+    },
+    {
+        "name": "Angular"
+    },
+    {
+        "name": "React"
+    },
+    {
+        "name": "Bootstrap"
+    },
+    {
+        "name": "Tailwind"
+    },
+    {
+        "name": "Grunt"
+    },
+    {
+        "name": "Gulp"
+    },
+    {
+        "name": "GitHub"
+    },
+    {
+        "name": "Astro"
+    },
+    {
+        "name": "MySQL"
+    },
+    {
+        "name": "Sketch"
+    },
+    {
+        "name": "Figma"
+    }
+]

@@ -1,0 +1,31 @@
+<div class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <p>Things I've worked on in recent years. Some as a freelancer and some as an employee of <a href="https://www.linkedin.com/company/weareintersect/">Intersect</a> (RIP 😢). A few of them may have since been rebuilt or removed from the internet, but I've included screenshots and links to archive.org captures where available.</p>
+
+        <h3>With Intersect</h3>
+
+        <div class="projects-group">
+            <each loop="project in projects.intersect">
+                <if condition="project.title">
+                    <include src="./partials/project.html" locals="{project}"></include>
+                </if>
+            </each>
+        </div>
+
+        <h3>Freelance</h3>
+
+        <div class="projects-group">
+            <each loop="project in projects.freelance">
+                <if condition="project.title">
+                    <include src="./partials/project.html" locals="{project}"></include>
+                </if>
+            </each>
+        </div>
+    </div>
+
+    <div id="img-modal" class="modal">
+        <button type="button" class="close" id="modal-close" aria-label="Close">&times;</button>
+        <img class="modal-content" id="modal-img" alt src="assets/img/pixel.png">
+    </div>

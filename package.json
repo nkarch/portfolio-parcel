@@ -1,0 +1,39 @@
+{
+    "name": "nk-portfolio-parcel",
+    "version": "1.0.0",
+    "description": "",
+    "source": "./src/index.html",
+    "scripts": {
+        "start": "parcel --no-cache",
+        "build": "rm -rf dist/* && parcel build src/index.html --no-cache"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/packager-raw-url": "^2.9.3",
+        "@parcel/transformer-sass": "^2.9.3",
+        "@parcel/transformer-webmanifest": "^2.9.3",
+        "parcel": "^2.9.3",
+        "parcel-reporter-static-files-copy": "^1.5.0",
+        "parcel-resolver-ignore": "^2.1.5",
+        "posthtml-expressions": "^1.11.1",
+        "posthtml-include": "^1.7.4"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "dependencies": {
+        "posthtml-doctype": "^1.1.1"
+    },
+    "targets": {
+        "default": {
+            "publicUrl": "."
+        }
+    },
+    "parcelIgnore": [
+        "assets/img/",
+        "assets/fonts/"
+    ],
+    "staticFiles": {
+        "staticPath": "src/assets",
+        "staticOutPath": "assets"
+    }
+}
