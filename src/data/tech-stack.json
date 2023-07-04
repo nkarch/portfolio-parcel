@@ -44,31 +44,11 @@
         "img": "tailwind"
     },
     {
-        "name": "Grunt",
-        "img": "grunt"
-    },
-    {
-        "name": "Gulp",
-        "img": "gulp"
-    },
-    {
         "name": "GitHub",
         "img": "github"
     },
     {
         "name": "Astro",
         "img": "astro"
-    },
-    {
-        "name": "MySQL",
-        "img": "mysql"
-    },
-    {
-        "name": "Sketch",
-        "img": "sketch"
-    },
-    {
-        "name": "Figma",
-        "img": "figma"
     }
 ]
