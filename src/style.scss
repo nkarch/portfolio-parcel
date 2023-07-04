@@ -182,37 +182,37 @@ ul {
     filter: invert(1);
 }
 
-@media screen and (min-width: 520px) {
-    .contact .contact-inner::before {
-        content: "";
-        position: absolute;
-        top: calc(30%);
-        left: calc(100% + 1rem);
-        width: 60px;
-        height: 60px;
-        background-image: url("./assets/img/face.svg");
-        background-position: left center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        transform-origin: center;
-        animation-name: face;
-        animation-duration: 30s;
-        /* animation-duration: 1s; */
-        animation-timing-function: linear;
-        animation-fill-mode: forwards;
-    }
-}
+// @media screen and (min-width: 520px) {
+//     .contact .contact-inner::before {
+//         content: "";
+//         position: absolute;
+//         top: calc(30%);
+//         left: calc(100% + 1rem);
+//         width: 60px;
+//         height: 60px;
+//         background-image: url("./assets/img/face.svg");
+//         background-position: left center;
+//         background-size: contain;
+//         background-repeat: no-repeat;
+//         transform-origin: center;
+//         animation-name: face;
+//         animation-duration: 30s;
+//         /* animation-duration: 1s; */
+//         animation-timing-function: linear;
+//         animation-fill-mode: forwards;
+//     }
+// }
 
-@keyframes face {
-    0% {
-        transform: translateY(-50%) translateX(20%) scale(0.1) rotateZ(10deg);
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 0.35;
-        transform: translateY(-40%) translateX(0) scale(1) rotateZ(-30deg);
-    }
-}
+// @keyframes face {
+//     0% {
+//         transform: translateY(-50%) translateX(20%) scale(0.1) rotateZ(10deg);
+//         opacity: 0.1;
+//     }
+//     100% {
+//         opacity: 0.35;
+//         transform: translateY(-40%) translateX(0) scale(1) rotateZ(-30deg);
+//     }
+// }
 
 .projects {
     background: var(--c-bg-dk);
