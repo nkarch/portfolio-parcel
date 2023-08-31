@@ -20,6 +20,18 @@
         "img": "typescript"
     },
     {
+        "name": "Angular",
+        "img": "angular"
+    },
+    {
+        "name": "React",
+        "img": "react"
+    },
+    {
+        "name": "Astro",
+        "img": "astro"
+    },
+    {
         "name": "PHP",
         "img": "php"
     },
@@ -28,12 +40,8 @@
         "img": "wordpress"
     },
     {
-        "name": "Angular",
-        "img": "angular"
-    },
-    {
-        "name": "React",
-        "img": "react"
+        "name": "MySQL",
+        "img": "mysql"
     },
     {
         "name": "Bootstrap",
@@ -44,11 +52,15 @@
         "img": "tailwind"
     },
     {
-        "name": "GitHub",
-        "img": "github"
+        "name": "Grunt",
+        "img": "grunt"
     },
     {
-        "name": "Astro",
-        "img": "astro"
+        "name": "Gulp",
+        "img": "gulp"
+    },
+    {
+        "name": "GitHub",
+        "img": "github"
     }
 ]
