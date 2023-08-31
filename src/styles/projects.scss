@@ -1,0 +1,64 @@
+.projects {
+    background: var(--c-bg-dk);
+    overflow: hidden;
+
+    &-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(max(30%, 260px), 1fr));
+        gap: 1rem;
+        overflow: auto;
+    }
+
+    &-group:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+
+.project {
+    background: linear-gradient(to bottom, #113f67, rgba(24, 55, 81, 0.5));
+    border-radius: 0.75rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 0 0 3px 0 rgba(9, 27, 43, 1);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1f384e;
+
+    @media screen and (min-width: 500px) {
+        padding: 1rem 1.25rem;
+    }
+
+    .h {
+        margin-bottom: 1em;
+    }
+
+    .img-trigger {
+        display: block;
+        margin-bottom: 1rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &-links {
+        margin-top: auto;
+
+        a {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            margin-right: 1rem;
+            text-decoration: none;
+
+            &::before {
+                content: "";
+                width: 1em;
+                height: 1em;
+                display: block;
+                display: inline-block;
+                margin-right: 0.25em;
+                background-image: url(./assets/img/globe.svg);
+            }
+        }
+    }
+}
