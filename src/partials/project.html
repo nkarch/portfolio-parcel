@@ -1,22 +1,27 @@
-<div class="project">
+<div
+     class="project"
+     data-src="/assets/img/projects/full/{{project.image}}-lg.jpg"
+     data-srcset="/assets/img/projects/full/{{project.image}}-sm.jpg 364w, /assets/img/projects/full/{{project.image}}-md.jpg 672w, /assets/img/projects/full/{{project.image}}-lg.jpg 980w">
+
     <h4 class="h">{{project.title}}</h4>
 
-    <a href="{{project.href}}" aria-label="View full image" class="img-trigger">
+    <a
+       href="/assets/img/projects/full/{{project.image}}-lg.jpg"
+       aria-label="View full image"
+       class="img-link">
         <img
-             src="./assets/img/projects/thumbs/{{project.image}}-thumb-sm.jpg"
-             srcset="./assets/img/projects/thumbs/{{project.image}}-thumb-sm.jpg 360w, ./assets/img/projects/thumbs/{{project.image}}-thumb-lg.jpg 500w"
+             src="/assets/img/projects/thumbs/{{project.image}}-thumb-sm.jpg"
+             srcset="/assets/img/projects/thumbs/{{project.image}}-thumb-sm.jpg 360w, /assets/img/projects/thumbs/{{project.image}}-thumb-lg.jpg 500w"
              sizes="(min-width: 1280px) 342px, 100vw"
-             data-src="./assets/img/projects/full/{{project.image}}-lg.jpg"
-             data-srcset="./assets/img/projects/full/{{project.image}}-sm.jpg 364w, ./assets/img/projects/full/{{project.image}}-md.jpg 672w, ./assets/img/projects/full/{{project.image}}-lg.jpg 980w"
              width="720"
              height="460"
              alt="{{project.alt}}"
-             loading="lazy">
+             loading="lazy" />
     </a>
 
     <p>{{ project.description }}</p>
 
-    <div class="links">
+    <div class="project-links">
         <a href="{{project.link}}">{{ project.liveSite ? 'Live Site' : 'Archived'}}</a>
     </div>
 </div>
