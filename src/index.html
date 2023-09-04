@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of web projects developed by or with Nick Karch">
-    <title>Nick Karch is a frontend web developer</title>
+    <title>Nick Karch | Frontend web developer</title>
 
     <link rel="stylesheet" href="style.scss">
     <script type="module" src="js/main.js"></script>
@@ -15,6 +15,10 @@
 </head>
 
 <body>
+    <script type="module">
+        document.body.classList.add("js");
+    </script>
+
     <main>
         <include src="./partials/intro.html"></include>
         <include src="./partials/projects.html"></include>
@@ -25,11 +29,6 @@
             <small>mwah. ❤️</small>
         </div>
     </footer>
-
-    <script>
-        document.body.classList.add("js");
-    </script>
-
 </body>
 
 </html>

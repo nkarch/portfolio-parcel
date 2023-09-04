@@ -1,13 +1,11 @@
 <div class="tech-stack">
-    <p>Noteable tools I work with / have worked with:</p>
+    <p class="fw-regular">Noteable tools I work with / have worked with:</p>
 
     <ul>
         <each loop="logo, i in techStack">
             <li>
-                <img src="./assets/img/logos/{{ logo.img }}.svg" alt> {{logo.name}}<if condition="i < techStack.length - 1">,</if>
+                <img src="/assets/img/logos/{{ logo.img }}.svg" alt> {{logo.name}}<if condition="i < techStack.length - 1">,</if>
             </li>
         </each>
     </ul>
-
-    <p style="font-size: 1.125rem; font-style: italic; font-weight: 400;">Wowee! Look at all them logos!</p>
 </div>
