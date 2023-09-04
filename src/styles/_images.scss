@@ -1,0 +1,62 @@
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.img-link {
+    img {
+        display: block;
+        transition: transform;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.18, 0.71, 0.23, 0.83);
+        will-change: transform;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .js & {
+        img {
+            opacity: 0;
+            transition: transform, opacity;
+            transition-duration: 0.5s, 0.25s;
+            transition-timing-function: cubic-bezier(0.18, 0.71, 0.23, 0.83), linear;
+        }
+
+        &.loading::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 250%;
+            height: 200%;
+            background-image: linear-gradient(to right, rgba(170, 170, 170, 1) 0%, rgba(214, 214, 214, 1) 15%, rgba(221, 221, 221, 1) 25%, rgba(214, 214, 214, 1) 35%, rgba(170, 170, 170, 1) 50%, rgba(214, 214, 214, 1) 65%, rgba(221, 221, 221, 1) 75%, rgba(214, 214, 214, 1) 85%, rgba(170, 170, 170, 1) 100%);
+            animation: loading;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &.loaded img {
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(10deg) scaleX(1.2) translateX(0%);
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.15;
+    }
+
+    100% {
+        transform: rotate(10deg) scaleX(1.2) translateX(-50%);
+        opacity: 0.2;
+    }
+}
