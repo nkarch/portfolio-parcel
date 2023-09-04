@@ -25,5 +25,17 @@
         transform: translateY(20%);
         object-fit: contain;
         margin-right: -0.25em;
+
+        .js & {
+            transition: opacity 0.5s;
+
+            &:not(.loaded) {
+                opacity: 0;
+            }
+
+            &.loaded {
+                opacity: 1;
+            }
+        }
     }
 }

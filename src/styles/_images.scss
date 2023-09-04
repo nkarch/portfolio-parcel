@@ -4,7 +4,7 @@ img {
     object-fit: contain;
 }
 
-.img-trigger {
+.img-link {
     img {
         display: block;
         transition: transform;
@@ -13,11 +13,18 @@ img {
         will-change: transform;
 
         &:hover {
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
     }
 
     .js & {
+        img {
+            opacity: 0;
+            transition: transform, opacity;
+            transition-duration: 0.5s, 0.25s;
+            transition-timing-function: cubic-bezier(0.18, 0.71, 0.23, 0.83), linear;
+        }
+
         &.loading::before {
             content: "";
             position: absolute;
@@ -34,13 +41,6 @@ img {
 
         &.loaded img {
             opacity: 1;
-            transition: transform, opacity;
-            transition-duration: 0.5s, 0.25s;
-            transition-timing-function: cubic-bezier(0.18, 0.71, 0.23, 0.83), linear;
-        }
-
-        img {
-            opacity: 0;
         }
     }
 }
